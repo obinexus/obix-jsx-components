@@ -1,0 +1,87 @@
+{
+  "package": "obix-jsx-components",
+  "dir": "binding/obix-jsx-components",
+  "importedBy": "scripts/recovery/generate-shims.mjs",
+  "stage": "stage-7 compat shim (authored-in-recovery; no upstream code)",
+  "replaces": {
+    "name": "@obinexusltd/obix-jsx-components",
+    "source": "upstream:obix-jsx-components@abeba2b:.",
+    "integrity": null
+  },
+  "owner": "obix-binding-jsx",
+  "surface": "docs/recovery/shim-surface.json",
+  "decision": "compat-shim (docs/recovery/migration-table.md; obix-naming.json legacyShims, kind documented)",
+  "entries": {
+    ".": {
+      "values": 31,
+      "types": 31,
+      "removed": [],
+      "missingTypes": []
+    },
+    "./primitives": {
+      "values": 5,
+      "types": 5,
+      "removed": [],
+      "missingTypes": []
+    },
+    "./forms": {
+      "values": 8,
+      "types": 8,
+      "removed": [],
+      "missingTypes": []
+    },
+    "./navigation": {
+      "values": 5,
+      "types": 5,
+      "removed": [],
+      "missingTypes": []
+    },
+    "./overlays": {
+      "values": 3,
+      "types": 3,
+      "removed": [],
+      "missingTypes": []
+    },
+    "./feedback": {
+      "values": 4,
+      "types": 4,
+      "removed": [],
+      "missingTypes": []
+    },
+    "./controls": {
+      "values": 2,
+      "types": 2,
+      "removed": [],
+      "missingTypes": []
+    },
+    "./data": {
+      "values": 2,
+      "types": 2,
+      "removed": [],
+      "missingTypes": []
+    },
+    "./search": {
+      "values": 2,
+      "types": 2,
+      "removed": [],
+      "missingTypes": []
+    }
+  },
+  "localFixes": [],
+  "renamedFrom": [
+    {
+      "name": "@obinexusltd/obix-jsx-components",
+      "dir": "binding/obix-jsx-components",
+      "stage": "unscoped-naming",
+      "why": "D-102 (2026-09-29): OBIX packages are named without an npm scope — previous name @obinexusltd/obix-jsx-components, current name obix-jsx-components (docs/recovery/unscoped-migration.md); the directory, version and exports are unchanged"
+    }
+  ],
+  "export": {
+    "from": "https://github.com/obinexusmk2/obix-monorepo",
+    "branch": "recovery/obix-api-preserving-rebuild",
+    "commit": "69cafc94910c1add865a520877617ac307668875",
+    "directory": "binding/obix-jsx-components",
+    "exportedBy": "scripts/release/export-repos.mjs",
+    "note": "a clean initial commit of this package; the monorepo history is not imported (D-103). Local machine paths in this record are replaced by <local workspace>."
+  }
+}
